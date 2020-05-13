@@ -1,24 +1,31 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Botの学習を目的として、自分の通勤をテーマにした、シンプルなLine Botを作成しました。
+- `line-bot-api`(gem)と、スクレイプングには、`nokogiri`(gem)を使用しました。
 
-Things you may want to cover:
+# 開発環境
+- Ruby on Rails
+- MySQL
+- VSCode（Visual Studio Code）
 
-* Ruby version
+# 機能
+- シャトルバスの時刻表示
+- 電車の運行状況表示
+- 周辺の天気予報
 
-* System dependencies
+<img src="https://gyazo.com/20ff99abbb1deda5e9d0262e73a0cad6/raw" width=40%>
 
-* Configuration
+1、2と入力すると、次に乗れそうな、シャトルバスの時刻を返します。
 
-* Database creation
+<img src="https://gyazo.com/bdea4969c12318ae786fc26257ca5ccb/raw" width=40%>
 
-* Database initialization
+3と入力すると、電車の運行状況とトピックスを返します。
 
-* How to run the test suite
+<img src="https://gyazo.com/5f8d15083d8f3bc271b2ad6b17bcc59d/raw" width=40%>
 
-* Services (job queues, cache servers, search engines, etc.)
+4、5と入力すると、その周辺の天気予報を返します。
 
-* Deployment instructions
+<img src="https://gyazo.com/45bb1746af1b04d368349bb569b27480/raw" width=40%>
 
-* ...
+# Qiita
+[【Rails】初めてのLINE Bot(Gem line-bot-api)](https://qiita.com/manbolila/items/5b6636ad64a5b4b7b074)
