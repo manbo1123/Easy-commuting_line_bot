@@ -1,0 +1,2 @@
+class BusTimetableKaiseiSt < ApplicationRecord
+end
